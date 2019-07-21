@@ -2,7 +2,8 @@ Modified Dialog bAbI tasks data
 -----------------------------------------------------------------------
 Adaptation of the "Dialog bAbI tasks data" dataset released by Facebook, available at https://research.fb.com/downloads/babi/, under the CC BY 3.0 Unported license, available at https://creativecommons.org/licenses/by/3.0/legalcode.
 
-This directory contains modified-bAbI dialog tasks, an extension of original-bAbI dialog tasks, as described in the paper "Learning End-to-End Goal-Oriented Dialog with maximal User task success and minimal Human Agent use" by Janarthanan Rajendran, Jatin Ganhotra and Lazaros Polymenakos (arxiv link coming soon), accepted at TACL.
+This directory contains modified-bAbI dialog tasks, an extension of original-bAbI dialog tasks, as described in the paper "Learning End-to-End Goal-Oriented Dialog with maximal User task success and minimal Human Agent use" by Janarthanan Rajendran, Jatin Ganhotra and Lazaros Polymenakos (https://arxiv.org/abs/1907.07638), accepted at TACL and oral presentation at ACL 2019.
+
 We modify the original-bAbI dialog tasks, by removing and replacing certain user behaviors from the training and validation data. The test set is left untouched. This simulates a scenario where some new user behaviors arise during the test (deployment) time that were not seen during the training and hence allows us to test our proposed method. This also mimics real-world data collection via crowdsourcing in the sense that certain user behavior is missing from the training data.
 
 modified dialog bAbI tasks data
@@ -31,6 +32,6 @@ A copy of this license is included with the data. You can also access the licens
 
 Contact
 ==========================================
-For more details on the dataset and baselines, see the paper "Learning End-to-End Goal-Oriented Dialog with maximal User task success and minimal Human Agent use" by Janarthanan Rajendran, Jatin Ganhotra and Lazaros Polymenakos (arxiv link coming soon).
+For more details on the dataset and baselines, see the paper "Learning End-to-End Goal-Oriented Dialog with maximal User task success and minimal Human Agent use" by Janarthanan Rajendran, Jatin Ganhotra and Lazaros Polymenakos (https://arxiv.org/abs/1907.07638).
 
 For any information, contact Jatin Ganhotra : jatinganhotra (at) us (dot) ibm (dot) com .
