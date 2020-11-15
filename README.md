@@ -94,7 +94,7 @@ engines such as <a href="https://g.co/datasetsearch">Google Dataset Search</a>.
   </tr>
   <tr>
     <td>description</td>
-    <td><code itemprop="description"></code></td>
+    <td><code itemprop="description">The dataset modified-bAbI dialog tasks is an extension of original-bAbI-dialog-tasks, as described in the paper: "Learning End-to-End Goal-Oriented Dialog with maximal User task success and minimal Human Agent use". We modify the original-bAbI dialog tasks, by removing and replacing certain user behaviors from the training and validation data. The test set is left untouched. This simulates a scenario where some new user behaviors arise during the test (deployment) time that were not seen during the training and hence allows us to test our proposed method. This also mimics real-world data collection via crowdsourcing in the sense that certain user behavior is missing from the training data.</code></td>
   </tr>
   <tr>
     <td>provider</td>
